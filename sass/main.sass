@@ -1,0 +1,531 @@
+body
+	font-family: 'Merriweather', serif
+	box-sizing: border-box
+	color: #3c3c3c
+	overflow-x: hidden
+.header
+	background: url('../img/background_first.jpg') center no-repeat
+	background-size: cover
+	height: 100vh
+	min-height: 680px
+	&_title
+		font-weight: 300
+		margin: 0
+		margin-top: 195px
+		color: #3c3c3c
+		font-size: 40px
+		text-align: center
+		span
+			display: block
+		&::after
+			content: ' '
+			background: url('../img/decoration_one.png') center no-repeat
+			width: 252px
+			height: 55px
+			position: absolute
+			bottom: -100px
+			left: 50%
+			margin-left: -126px
+	&_top
+		margin-bottom: 315px
+		margin-left: 250px
+		ul
+			list-style: none
+			margin: 0
+			padding: 0
+			margin-left: 50px
+			padding-top: 100px
+			li
+				display: inline-block
+				a
+					color: #3c3c3c
+					text-transform: uppercase
+					text-decoration: none
+					padding: 12px 14px
+					border: 1px solid transparent
+					transition: background .1s, color .4s
+					font-size: 18px
+					&:hover
+						border: 1px solid #3c3c3c
+						background-color: #3c3c3c
+						color: #eee
+	&_info
+		position: relative
+
+.yellow
+	background: url('../img/121.png') center no-repeat
+	background-size: cover
+	padding-top: 6rem
+	padding-bottom: 9rem
+	text-align: center
+	img
+		max-height: 68px
+		margin-bottom: 35px
+	&_title
+		margin-bottom: 30px
+		font-weight: 900
+		text-transform: uppercase
+	&_info
+		font-weight: 300
+		line-height: 2
+
+
+.specials
+	padding: 80px 0
+	&_title
+		text-align: center
+		font-weight: 300
+		margin-bottom: 150px
+		font-size: 40px
+		&::after
+			content: ' '
+			position: absolute
+			width: 250px
+			height: 40px
+			background: url('../img/decoration_one.png') center no-repeat
+			background-size: cover
+			top: 70px
+			left: 50%
+			margin-left: -125px
+			display: block
+	&_block
+		position: relative
+	&_item
+		height: 200px
+		background-color: #ebebeb
+		text-align: center
+		padding: 2rem 1rem
+		h4
+			font-size: 18px
+			font-weight: 700
+			position: relative
+			&::after
+				content: ' '
+				position: absolute
+				height: 1px
+				width: 88px
+				left: 50%
+				margin-left: -44px
+				bottom: -10px
+				background-color: #111
+		&_info
+			font-weight: 300
+			font-size: 14px
+			margin-top: 20px
+		&_price
+			font-size: 14px
+			font-weight: 900
+		&_one
+			background: url('../img/food.jpg') center no-repeat
+			background-size: cover
+		&_two
+			background: url('../img/food2.jpg') center no-repeat
+			background-size: cover
+		&_three
+			background: url('../img/food3.jpg') center no-repeat
+			background-size: cover
+		&_four
+			background: url('../img/food4.jpg') center no-repeat
+			background-size: cover
+		&_five
+			background: url('../img/food5.jpg') center no-repeat
+			background-size: cover
+		&_six
+			background: url('../img/food6.jpg') center no-repeat
+			background-size: cover
+
+
+.about
+	background-color: #eeefee
+	text-align: center
+	padding: 8rem 0
+	&_title
+		font-size: 40px
+		font-weight: 300
+		position: relative
+		margin-bottom: 100px
+		&::after
+			content: ' '
+			position: absolute
+			width: 250px
+			height: 40px
+			background: url('../img/decoration_one.png') center no-repeat
+			background-size: cover
+			top: 70px
+			left: 50%
+			margin-left: -125px
+			display: block
+	&_info
+		font-weight: 300
+		line-height: 2
+		font-size: 20px
+		margin-bottom: 80px
+
+
+.menu
+	text-align: center
+	padding: 70px 0
+	&_title
+		font-size: 40px
+		font-weight: 300
+		margin: 0
+		margin-bottom: 80px
+		position: relative
+		&::after
+			content: ' '
+			position: absolute
+			width: 250px
+			height: 40px
+			display: block
+			background: url('../img/decoration_one.png') center no-repeat
+			background-size: cover
+			left: 50%
+			margin-left: -125px
+			bottom: -65px
+.etabs
+	padding: 0
+	margin: 0
+	margin-top: 50px
+	margin-bottom: 50px
+.tab
+	display: inline-block
+	margin: 15px
+	margin-right: 45px
+	text-align: center
+	a
+		text-decoration: none
+		color: #3c3c3c
+		font-size: 20px
+		text-transform: uppercase
+		border: 1px solid transparent
+		padding: 10px 15px
+		display: block
+.active
+	border: 0.1px solid #3c3c3c
+#tabs2
+	border: none
+#tabs3
+	border: none
+#tabs1
+	border: none
+.name
+	font-weight: 300
+	&::after
+		display: block
+		overflow: hidden
+		white-space: nowrap
+		content: '..................................................................................................................'
+.price
+	float: right
+	position: relative
+	z-index: 5
+	display: block
+	overflow: hidden
+	margin-left: 5px
+	font-size: 14px
+	text-transform: uppercase
+	font-weight: 300
+.awesome
+	float: left
+	text-transform: uppercase
+	margin-right: 5px
+	font-size: 16px
+.startest_sub
+	text-align: left
+	margin-top: -16px
+	font-size: 12px
+	font-weight: 300
+	font-style: italic
+.startest_item
+	margin-bottom: 30px
+
+
+.footer
+	background: url('../img/bg_footer.jpg') center no-repeat
+	background-size: cover
+	min-height: 690px
+	padding-bottom: 50px
+	padding-top: 70px
+	&_socials
+		display: flex
+		justify-content: flex-end
+		a
+			color: #3c3c3c
+			border: 1px solid #3c3c3c
+			display: inline-block
+			width: 50px
+			height: 50px
+			text-align: center
+			line-height: 50px
+			margin-left: 15px
+			font-size: 20px
+			transition: 0.2s
+			&:hover
+				background-color: #3c3c3c
+				color: #fff
+	&_title
+		font-size: 40px
+		font-weight: 300
+		margin: 0
+		margin-bottom: 80px
+		position: relative
+		text-align: center
+		&::after
+			content: ' '
+			position: absolute
+			width: 250px
+			height: 40px
+			display: block
+			background: url('../img/decoration_one.png') center no-repeat
+			background-size: cover
+			left: 50%
+			margin-left: -125px
+			bottom: -65px
+	&_left, &_right
+		margin-top: 59px
+	&_left
+		&_title
+			text-transform: uppercase
+			margin-bottom: 30px
+			font-weight: 300
+			font-size: 18px
+	&_right
+		&_title
+			text-transform: uppercase
+			margin-bottom: 30px
+			font-weight: 300
+			font-size: 18px
+	&_form
+		margin-top: 100px
+		input
+			background: transparent
+		&_title
+			text-transform: uppercase
+			font-size: 18px
+			margin-bottom: 35px
+	&_inputs
+		font-style: italic
+		border: none
+		border-bottom: 1px solid #111
+		padding: 10px 10px
+		width: 200px
+		margin-right: 20px
+		outline: none
+		font-family: 'Merriweather', sans-serif
+		&:focus
+			outline: none
+		&::placeholder
+			font-weight: 300
+			color: #111
+			font-family: 'Merriweather', sans-serif
+	&_message
+		font-style: italic
+		border: none
+		border-bottom: 1px solid #111
+		padding: 10px 10px
+		width: 423px
+		display: block
+		margin-top: 60px
+		outline: none
+		font-family: 'Merriweather', sans-serif
+		&:focus
+			outline: none
+		&::placeholder
+			font-weight: 300
+			color: #111
+			font-family: 'Merriweather', sans-serif
+	&_submit
+		border: none
+		border: 1px solid #111
+		display: block
+		margin-left: auto
+		margin-right: auto
+		margin-top: 30px
+		padding: 10px 45px
+		text-transform: uppercase
+		font-family: 'Merriweather', sans-serif
+		font-weight: 300
+		cursor: pointer
+		margin-bottom: 180px
+		transition: .2s
+		&:hover
+			background-color: #111
+			color: #eee
+	&_author
+		text-align: center
+
+.burger_sm
+	display: none
+
+
+// Media
+
+@media(max-width: 1280px)
+	.header
+		&_top
+			margin-left: 150px
+		ul
+			margin-left: 0
+@media(max-width: 1200px)
+	.specials
+		&_item
+			padding: 1.5rem 1rem
+		h4
+			font-size: 14px
+	.footer
+		text-align: center
+		&_message
+			width: 200px
+			display: block
+			margin-left: auto
+			margin-top: 50px
+			margin-right: auto
+		&_inputs
+			display: block
+			margin-left: auto
+			margin-top: 20px
+			margin-right: auto
+		&_socials
+			justify-content: center
+			margin-top: 40px
+
+@media(max-width: 1110px)
+	.header
+		&_title
+			font-size: 36px
+@media(max-width: 1100px)
+	.header
+		&_top
+			margin-left: 50px
+@media(max-width: 1024px)
+	.header
+		&_title
+			font-size: 36px
+
+@media(max-width: 991.98px)
+
+	.header
+		&_title
+			font-size: 36px
+			margin-top: 100px
+			&::after
+				width: 120px
+				margin-left: -60px
+				bottom: -65px
+@media(max-width: 991.97px)
+	.header
+		&_title
+			font-size: 24px
+			margin-top: 200px
+			span
+				display: inline-block
+		&_top
+			ul
+				padding: 0px
+				margin: 0
+				li
+					display: block
+					a
+						display: block
+						margin: 20px 0
+						padding: 0
+						width: 100px
+						text-align: right
+	.specials_item
+		margin: 0
+		h4
+			font-size: 24px
+	.specials_top
+		margin-top: 40px
+	.about_img
+		margin-top: 100px
+	.about_info
+		width: 85%
+		margin-left: auto
+		margin-right: auto
+	.burger
+		position: absolute
+		right: 20px
+		top: 50px
+		&_lg
+			display: none
+		&_sm
+			display: block
+			position: relative
+		&_two
+			position: fixed
+			left: 4000px
+			top: 30px
+			transition: .2s
+
+
+
+
+.active_bur
+	position: absolute
+	left: 0px
+	width: 100%
+	height: 100vh
+	background-color: #777
+
+
+@media(max-width: 767.98px)
+	.yellow
+		.col-md-4
+			margin-top: 80px
+			&:first-child
+				margin-top: 0
+		&_title
+			font-size: 24px
+		&_info
+			width: 85%
+			margin-left: auto
+			margin-right: auto
+
+
+
+
+@media(max-width: 576px)
+	.specials
+		&_title
+			font-size: 28px
+			margin-left: auto
+			margin-right: auto
+			width: 90%
+	.footer_inputs
+		color: #fff
+		border-bottom: 1px solid #fff
+		&::placeholder
+			color: #fff
+	.menu
+		&_title
+			font-size: 36px
+	.about_title
+		font-size: 36px
+	.white
+		color: #fff
+	.tab
+		display: block
+		margin: 0
+		width: 150px
+		margin-left: auto
+		margin-right: auto
+		margin-bottom: 20px
+		text-align: center
+		a
+			text-decoration: none
+			color: #3c3c3c
+			font-size: 20px
+			text-transform: uppercase
+			border: 1px solid transparent
+			padding: 10px 15px
+			display: block
+
+	
+
+
+@media(max-width: 355px)
+	.header
+		&_title
+			font-size: 20px
+
